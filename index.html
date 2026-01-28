@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: Poppins, sans-serif;
+      }
+
+      .header {
+        display: flex;
+        background-color: #1e1e1e;
+        align-items: center;
+        padding: 35px 60px;
+        justify-content: space-between;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+      }
+
+      .logo {
+        font-weight: bold;
+        font-size: 2rem;
+        color: white;
+      }
+
+      nav {
+        display: flex;
+        gap: 30px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #333;
+        font-size: 1.5rem;
+        color: white;
+        transition: all 0.15s ease-in-out;
+      }
+
+      nav a:hover {
+        color: #ff7a59;
+        transform: scale(1.05);
+      }
+
+      .about {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        vertical-align: top;
+        padding: 140px 250px;
+        gap: 60px;
+      }
+
+      .about-text {
+        max-width: 1000px;
+        padding-left: 25px;
+      }
+
+      .about-text h2 {
+        font-size: 5rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+
+      .about-text p {
+        font-size: 1.8rem;
+        line-height: 1.8;
+        color: #333;
+        margin-bottom: 20px;
+      }
+      .about-image img {
+        width: 540px;
+        height: auto;
+        border-radius: 270px;
+        object-fit: contain;
+        object-position: center;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 1);
+      }
+
+      .about-details {
+        padding: 120px 350px;
+        background: #fafafa;
+        text-align: center;
+      }
+
+      .about-details h3 {
+        font-size: 3rem;
+        margin-bottom: 30px;
+      }
+
+      .about-details p {
+        font-size: 1.6rem;
+        line-height: 1.9;
+        margin-bottom: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">Karl's Portfolio</div>
+
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Activities</a>
+        <a href="#">Assignments</a>
+        <a href="aboutme.html" target="_self">About Me</a>
+      </nav>
+    </header>
+    <section class="about">
+      <div class="about-text">
+        <h2>Hi there, I'm <span style="color: brown">Karl!</span></h2>
+        <p>
+          An
+          <span style="color: darkcyan">Information Technology (IT)</span>
+          student equipped with basic fundamental knowledge and skills in Web
+          Development and Networking, interested in developing web experiences
+          focused on simplicity and usability.
+        </p>
+      </div>
+
+      <div class="about-image">
+        <img src="profile.jpg" alt="Portrait" />
+      </div>
+    </section>
+
+    <!--
+    <section class="about-details">
+      <h3>More About Me</h3>
+      <p>
+        I am Karl, 19 years old, and I enjoy working on front-end side where I
+        am able to translate ideas into clean and user-friendly interfaces and
+        layouts. Furthermore, I aim to improve and build up my understanding and
+        knowledge of principles of design to apply them to future projects,
+        making them more visually appealing and intuitive for users.
+      </p>
+    </section>
+    -->
+  </body>
+</html>
